@@ -1,0 +1,13 @@
+qstat
+module avail
+module info bowtie2-2.3.4.1
+module help  bowtie2-2.3.4.1
+module load bowtie2-2.3.4.1
+bowtie2
+module unload bowtie2-2.3.4.1
+nano test.sh
+
+[junior@wonko:/nlustre/users/junior/OmegaFastq]$ multiqc -i "Multiqc report of all the 166 samples" -o /nlustre/users/junior/FastQC/ .
+
+
+Trimmomatic
