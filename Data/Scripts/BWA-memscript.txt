@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+
+import sys
+import os
+
+infile = sys.argv[1]
+
+sample_name = infile.replace('_001.fastq', '')
+outdir = sample_name
+script_name =  sample_name + '_bwa_mem' + '.sh'
+
+fh = open(script_name, 'w')
+fh.write('#!/usr/bin/bash\n')
+job_name = '\tAlligned_'+ sample_name
+fh.write('#PBS -N' + job_name + '\n')
+fh.write('#PBS -q long\n')
+fh.write('#PBS -l walltime=01:00:00\n')
+fh.write('#PBS -l nodes=1:ppn=28\n')
+fh.write('#PBS -k oe\n')
+fh.write('module load bwa-0.7.17\n')
+fh.write('cd /nlustre/users/junior/OmegaFastq/fastq\n')
+fh.write('mkdir ' + outdir + '\n')
+bwa_mem_command1 = 'bwa index uscs.hg19.fasta'
+bwa_mem_command = 'bwa mem -MP -t 28 -R @RG\tID:sample_name\tSM:sample_name\tPL:ILLUMINA\tPU:sample$
+fh.write(bwa_mem_command1 + '\n' + bwa_mem_command + '\n')
+fh.close()
+
+

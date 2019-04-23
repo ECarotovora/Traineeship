@@ -1,3 +1,7 @@
+looking at predicted effects of the non-coding mutations in our data set.
+
+cp -R /nlustre/users/junior/BIFHons/Mapping
+
 qstat
 module avail
 module info bowtie2-2.3.4.1
@@ -7,7 +11,24 @@ bowtie2
 module unload bowtie2-2.3.4.1
 nano test.sh
 
-[junior@wonko:/nlustre/users/junior/OmegaFastq]$ multiqc -i "Multiqc report of all the 166 samples" -o /nlustre/users/junior/FastQC/ .
+multiqc -i "Multiqc report of all the 166 samples" -o /nlustre/users/junior/FastQC/ .
+
+Reagent and Library Prep Kit Bundles Available for the MiniSeq System
+
+Illumina Inc  (2019) Illumina-TruSight-Cancer-Panel-https_www_illumina_comproductsby-typeclinical-research-productstrusight-cancer_html
+
+Illumina Inc (2019)1-Seq-RUO-DNA-https_www_illumina_comproductsby-typeclinical-research-productstrusight-cancer_html
+
+
+Multiqc
+Mutiqc is gerund ==> alleen kan ik het niet open doen in firefox of hotmail==> moet een manier vinden==> heb het al lokaal gekopieerd naar mijn ~/MutiQC 
+volgende stap is de FastX toolkit gebruiken ==> command staat klaar dus alleen maar runnen als ik de MultiQc heb gerund en dan zie dat mijn kwaliteit ondermaats is.
+
 
 
 Trimmomatic
+
+
+
+
+

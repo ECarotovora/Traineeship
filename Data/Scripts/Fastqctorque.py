@@ -1,9 +1,3 @@
-mkdir OmegaFastq
-
-cp /nlustre/users/fourie/OmegaFastq   /nlustre/users/junior/OmegaFastq
-
-
-
 #!/usr/bin/env python
 
 import sys
@@ -30,11 +24,4 @@ fastqc_command = 'fastqc -t 28 -o ' + outdir + ' ' + infile
 fh.write(fastqc_command + '\n')
 fh.close()
 
-
-cd /nlustre/users/junior/
-mkdir Fastqc (to have one directory where all the fastqc files can be stored and multiqc
-can run on this 
-
-Multiqc
-script schrijven
 

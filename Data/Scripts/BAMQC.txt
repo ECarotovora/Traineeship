@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+
+import sys
+import os
+
+infile = sys.argv[1]
+
+sample_name = infile.replace('[iets onbelangrijk]', '')
+outdir = sample_name 
+script_name =  sample_name + '_bam' + '.sh'
+
+fh = open(script_name, 'w')
+fh.write('#!/usr/bin/bash\n')
+job_name = 'BamQC_'+ sample_name
+fh.write('#PBS -N' + job_name + '\n')
+fh.write('#PBS -q long\n')
+fh.write('#PBS -l walltime=01:00:00\n')
+fh.write('#PBS -l nodes=1:ppn=28\n')
+fh.write('#PBS -k oe\n')
+fh.write('module load qualimap-2.2.1\n')
+fh.write('cd /nlustre/users/junior/OmegaFastq/SAMQ\n')
+fh.write('mkdir ' + outdir + '\n')
+bam_command = 'qualimap bamqc -bam infile -gff /nlustre/users/fourie/H.sapiens/intervals/trusight_cancer_manifest_a.bed -outdir + outdir'
+fh.write(bam_command + '\n')
+fh.close()
+

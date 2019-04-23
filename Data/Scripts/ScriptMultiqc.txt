@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+
+import sys
+import os
+
+infile = sys.argv[1]
+
+base_name = infile.replace('.fastq.gz', '')
+outdir = base_name + '_fastqc'
+script_name = 'run_fastqc_' + base_name + '.sh'
+
+fh = open(script_name, 'w')
+fh.write('#!/usr/bin/bash\n')
+job_name = 'fastqc_' + base_name
+fh.write('#PBS -N ' + job_name + '\n')
+fh.write('#PBS -q long\n')
+fh.write('#PBS -l walltime=00:15:00\n')
+fh.write('#PBS -l nodes=1:ppn=28\n')
+fh.write('#PBS -k oe\n')
+fh.write('module load fastqc-0.11.7\n')
+fh.write('cd /nlustre/users/junior/OmegaFastq\n')
+fh.write('mkdir ' + outdir + '\n')
+fastqc_command = 'fastqc -t 28 -o ' + outdir + ' ' + infile
+fh.write(fastqc_command + '\n')
+fh.close()
+
+
+#!/bin/bash
+#PBS -q long
+#PBS -l walltime=01:00:00
+#PBS - l nodes=1:ppn=28
+#PBS -k oe
+
+A = $(cd /nlustre/users/junior/OmegaFastq/)
+B = $(ls |grep fastq.gz)
+module load fastx_toolkit-0.0.14
+for file in $A ;
+ $B ;
+ do fastx_trimmer -f 5 -l 95 -Q33 -i ${file} -o ${file}_trimmed; done
+
+FASTA/Q Trimmer
+
+	$ fastx_trimmer -h
+	usage: fastx_trimmer [-h] [-f N] [-l N] [-z] [-v] [-i INFILE] [-o OUTFILE]
+
+	version 0.0.6
+	   [-h]         = This helpful help screen.
+	   [-f N]       = First base to keep. Default is 1 (=first base).
+	   [-l N]       = Last base to keep. Default is entire read.
+	   [-z]         = Compress output with GZIP.
+	   [-i INFILE]  = FASTA/Q input file. default is STDIN.
+	   [-o OUTFILE] = FASTA/Q output file. default is STDOUT.
+
+
+  File "./my_fastX_trimmer.py", line 11, in <module>
+    fh = open(script_name, 'w')
+IOError: [Errno 2] No such file or directory: 'trim_raw./my_fastX_trimmer.py'

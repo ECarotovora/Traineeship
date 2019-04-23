@@ -1,0 +1,36 @@
+#use nano to make the name of your script
+nano [name of my script]
+
+
+#enter shebang line + script
+#!usr/bin/env bash
+
+for file in `ls |grep fastq` ; do fastx_trimmer -f l -l 95 -Q33 -i ${file} -o ${file}_trimmed; done
+
+#Change file permission
+chmod +755 [name of my script] ==> +rwxr-x-r-x  rwx for me but only r and executable for group and other
+you can normally also use chmod +x [name of my script] ==> gives the same output but dont use this one because it is dangerous just given everybody permission
+
+[Other handy site to look at is 
+https://ss64.com/bash/
+https://ss64.com/bash/chmod.html]
+
+Execute by user is 100. Execute by group is 010. Execute by other is 001
+
+Write by user is 200. Write by group is 020. Write by other is 002.
+
+Read by user is 400. Read by group is 040. Read by other is 004.
+
+Then you add these together to get the desired combination.
+
+So to allow everyone to read it, but only Group to execute and User to write it (but for some reason not execute) would be:
+
+400 + 040 + 004 and 010 and 200
+
+That adds up to 600 + 050 + 004 = 654.
+
+You could then run the command.
+
+chmod +654 /path/to/file.extension to set it.
+
+
