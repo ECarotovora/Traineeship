@@ -1,0 +1,58 @@
+First cleanup the files
+Moved every .sam file to the SAM directory with 
+
+for file in `ls |grep sam`; do mv ./SAM/; done
+
+So had a few problems with the SAM tools import ==> It has changed to sam tools view
+The alias can be used from now on
+
+first make python script 
+/nlustre/users/fourie/H.sapiens/gatk_resource_bundle/2.8/hg19/ucss.hg19.fasta is used as index list
+
+After the script was checked 
+i used for file in `ls |grep sam`; do ./SAM-to-BAM.py $file; done to make 166 Bash scripts
+
+After that i used 
+for file in `ls |grep sh`; do qsub $file; done
+
+
+In the next step i need to SAM tools sort
+first write the script in python
+
+then i scheduled the making of the bash scripts with
+for file in `ls| grep bam`; do ./SAM-sort.py $file; done
+
+now I submitted the bash scripts to qsub
+for file in `ls |grep sh`; do qsub $file; done
+
+==> made a immense mistake ==> did not include option -o in the file ==> overwrited my bam files and 
+created "sorted"bam files of 91 kb also no there was no output folder made available
+
+So had to restart the process from sam view again
+==> hence the second SAM folder just to have them available 
+I'm going to copy the directory of bam files 
+
+
+
+
+next step is sam SAM tools index 
+First I moved all the scripts to my "Sorted" directory
+next I created "Bams" directory for the .bam files
+Last I created the Sam directory for the .sam files
+
+The python script was created and then 
+for file in `ls |grep sam`; do ./SAM-index.py $file; done to make 166 Bash scripts
+
+After that i used 
+for file in `ls |grep sh`; do qsub $file; done
+
+
+Next step qualimap bamqc ==> to use this feature files have to be sorted
+next step I replaced the .sh files to the scripts directory to have space
+The python script is configured now
+
+I used for file in `ls|grep sorted`; do ./BAMQC.py $file;done to make 166 python scripts
+next I use 
+for file in `ls |grep sh`; do qsub $file; done
+
+

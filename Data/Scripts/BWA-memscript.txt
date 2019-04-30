@@ -26,3 +26,77 @@ fh.write(bwa_mem_command1 + '\n' + bwa_mem_command + '\n')
 fh.close()
 
 
+24/04 changed the code
+
+
+#!/usr/bin/env python
+
+import sys
+import os
+
+infile = sys.argv[1]
+
+sample_name = infile.replace('_001.fastq','')
+outdir = sample_name.replace('.fastq','')
+script_name =  outdir + '_bwa_mem' + '.sh'
+
+fh = open(script_name, 'w')
+fh.write('#!/usr/bin/bash\n')
+job_name = '\tAlligned_'+ sample_name
+fh.write('#PBS -N' + job_name + '\n')
+fh.write('#PBS -q long\n')
+fh.write('#PBS -l walltime=01:30:00\n')
+fh.write('#PBS -l nodes=1:ppn=28\n')
+fh.write('#PBS -k oe\n')
+fh.write('module load bwa-0.7.17\n')
+fh.write('cd /nlustre/users/junior/OmegaFastq/fastq\n')
+fh.write('mkdir ' + outdir + '\n')
+bwa_mem_command = 'bwa mem -MP -t 28 -R \"@RG\\tID:' + sample_name + '\\tSM:' + sample_name + '\\tPL:ILLUMINA\\tPU:' + sample_name + '\" ucsc.hg19.fasta _R1_001.fastq _R2_ BRB101_S20_L001_R2_001.fastq > sample_name + .sam'
+fh.write(bwa_mem_command1 + '\n' + bwa_mem_command + '\n')
+fh.close()
+
+
+
+Eerst de tab functie laten escapen door een extra \ te plaatsen dan op de juiste plaatsen '' tekens plaatsen
+
+
+
+25/05 Fourie changed the code
+
+#!/usr/bin/env python
+
+import sys
+import os
+
+infile = sys.argv[1]
+
+sample_name = infile.replace('_R1_001.fastq','')
+outdir = sample_name.replace('.fastq','')
+script_name =  outdir + '_bwa_mem' + '.sh'
+
+fh = open(script_name, 'w')
+fh.write('#!/usr/bin/bash\n')
+job_name = '\tAlligned_'+ sample_name
+fh.write('#PBS -N' + job_name + '\n')
+fh.write('#PBS -q long\n')
+fh.write('#PBS -l walltime=01:30:00\n')
+fh.write('#PBS -l nodes=1:ppn=28\n')
+fh.write('#PBS -k oe\n')
+fh.write('module load bwa-0.7.17\n')
+fh.write('cd /nlustre/users/junior/OmegaFastq/fastq\n')
+fh.write('mkdir ' + outdir + '\n')
+
+bwa_mem_command = 'bwa mem -t 28 -R \"@RG\\tID:' + sample_name + '\\tSM:' + sample_name + '\\tPL:ILLUMINA\\tPU:' + sample_name + '\\tLB:' + sample_name + '\" ' + '/nlustre/users/fourie/H.sapiens/gatk_resource_bundle/2.8/hg19/ucsc.hg19.fasta ' + sample_name + '_R1_001.fastq ' + sample_name + '_R2_001.fastq > ' + sample_name + '.sam'
+fh.write(bwa_mem_command + '\n')
+fh.close()
+
+
+
+problems : 
+I had to replace the sample name fully with the _R1_ name 
+Second I had to give the full path to where the reference genome could be found
+So python makes 166 bash scripts 
+then i submit the jobs one by one with the command 
+for file in `ls |grep sh`; do qsub $file; done
+
+

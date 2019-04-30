@@ -1,0 +1,583 @@
+[2019-04-30 14:11:55,268] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/lib/python2.7/site-packages/multiqc-1.6.dev0-py2.7.egg/multiqc_config.yaml
+[2019-04-30 14:11:55,268] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/junior/.multiqc_config.yaml
+[2019-04-30 14:11:55,268] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2019-04-30 14:11:55,268] multiqc                                            [DEBUG  ]  Command used: /usr/bin/multiqc .
+[2019-04-30 14:11:56,410] multiqc                                            [WARNING]  MultiQC Version v1.7 now available!
+[2019-04-30 14:11:56,410] multiqc                                            [INFO   ]  This is MultiQC v1.6.dev0
+[2019-04-30 14:11:56,411] multiqc                                            [DEBUG  ]  Command     : /usr/bin/multiqc .
+[2019-04-30 14:11:56,411] multiqc                                            [DEBUG  ]  Working dir : /nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted
+[2019-04-30 14:11:56,411] multiqc                                            [INFO   ]  Template    : default
+[2019-04-30 14:11:56,411] multiqc                                            [INFO   ]  Searching '.'
+[2019-04-30 14:11:56,412] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, bbmap, bismark, hicexplorer, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastqc, clusterflow, bcl2fastq, interop
+[2019-04-30 14:11:56,413] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpyStXcU
+[2019-04-30 14:13:54,192] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB50_S16_L001.sorted.bam
+[2019-04-30 14:13:54,344] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB94_S17_L001.sorted.bam
+[2019-04-30 14:13:54,495] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB6_S10_L001.sorted.bam
+[2019-04-30 14:13:54,495] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB191_S12_L001.sorted.bam
+[2019-04-30 14:13:54,496] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB272_S11_L001.sorted.bam
+[2019-04-30 14:13:54,825] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRC1341_S23_L001.sorted.bam
+[2019-04-30 14:13:54,825] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB52_S10_L001.sorted.bam
+[2019-04-30 14:13:54,826] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB129_S6_L001.sorted.bam
+[2019-04-30 14:13:54,826] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB28_S8_L001.sorted.bam
+[2019-04-30 14:13:54,916] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB114_S22_L001.sorted.bam
+[2019-04-30 14:13:54,917] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB208_S21_L001.sorted.bam
+[2019-04-30 14:13:55,003] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB47_S8_L001.sorted.bam
+[2019-04-30 14:13:55,003] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB201_S21_L001.sorted.bam
+[2019-04-30 14:13:55,004] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB113_S3_L001.sorted.bam
+[2019-04-30 14:13:55,217] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB242_S16_L001.sorted.bam
+[2019-04-30 14:13:55,289] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB174_S6_L001.sorted.bam
+[2019-04-30 14:13:55,441] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB87_S17_L001.sorted.bam
+[2019-04-30 14:13:55,507] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB106_S19_L001.sorted.bam
+[2019-04-30 14:13:55,508] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB283_S4_L001.sorted.bam
+[2019-04-30 14:13:55,574] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB99_S8_L001.sorted.bam
+[2019-04-30 14:13:55,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB102_S24_L001.sorted.bam
+[2019-04-30 14:13:55,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB88_S22_L001.sorted.bam
+[2019-04-30 14:13:55,706] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB186_S10_L001.sorted.bam
+[2019-04-30 14:13:55,707] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB18_S4_L001.sorted.bam
+[2019-04-30 14:13:55,998] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB49_S15_L001.sorted.bam
+[2019-04-30 14:13:56,079] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB234_S2_L001.sorted.bam
+[2019-04-30 14:13:56,079] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB62_S18_L001.sorted.bam
+[2019-04-30 14:13:56,166] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB37_S9_L001.sorted.bam
+[2019-04-30 14:13:56,424] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB55_S11_L001.sorted.bam
+[2019-04-30 14:13:56,424] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB137_S1_L001.sorted.bam
+[2019-04-30 14:13:56,509] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB139_S3_L001.sorted.bam
+[2019-04-30 14:13:56,510] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB166_S1_L001.sorted.bam
+[2019-04-30 14:13:56,510] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB282_S3_L001.sorted.bam
+[2019-04-30 14:13:56,888] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB205_S22_L001.sorted.bam
+[2019-04-30 14:13:56,966] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB104_S21_L001.sorted.bam
+[2019-04-30 14:13:57,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB2_S1_L001.sorted.bam
+[2019-04-30 14:13:57,320] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB39_S5_L001.sorted.bam
+[2019-04-30 14:13:57,467] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB58_S13_L001.sorted.bam
+[2019-04-30 14:13:57,554] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB187_S15_L001.sorted.bam
+[2019-04-30 14:13:57,555] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB78_S16_L001.sorted.bam
+[2019-04-30 14:13:57,625] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB89_S18_L001.sorted.bam
+[2019-04-30 14:13:57,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB276_S1_L001.sorted.bam
+[2019-04-30 14:13:57,961] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB59_S14_L001.sorted.bam
+[2019-04-30 14:13:57,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB193_S18_L001.sorted.bam
+[2019-04-30 14:13:57,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB21_S7_L001.sorted.bam
+[2019-04-30 14:13:58,044] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB268_S22_L001.sorted.bam
+[2019-04-30 14:13:58,045] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB70_S20_L001.sorted.bam
+[2019-04-30 14:13:58,292] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB257_S21_L001.sorted.bam
+[2019-04-30 14:13:58,445] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB68_S19_L001.sorted.bam
+[2019-04-30 14:13:58,446] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB173_S5_L001.sorted.bam
+[2019-04-30 14:13:58,446] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB130_S16_L001.sorted.bam
+[2019-04-30 14:13:58,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB225_S15_L001.sorted.bam
+[2019-04-30 14:13:58,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB215_S23_L001.sorted.bam
+[2019-04-30 14:13:58,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB264_S7_L001.sorted.bam
+[2019-04-30 14:13:58,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB220_S13_L001.sorted.bam
+[2019-04-30 14:13:58,748] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB261_S22_L001.sorted.bam
+[2019-04-30 14:13:58,818] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB288_S7_L001.sorted.bam
+[2019-04-30 14:13:58,900] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB9_S3_L001.sorted.bam
+[2019-04-30 14:13:58,900] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB286_S5_L001.sorted.bam
+[2019-04-30 14:13:58,901] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB259_S21_L001.sorted.bam
+[2019-04-30 14:13:58,901] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB51_S9_L001.sorted.bam
+[2019-04-30 14:13:58,902] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB1_S9_L001.sorted.bam
+[2019-04-30 14:13:58,902] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: OVB1_S13_L001.sorted.bam
+[2019-04-30 14:13:58,902] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB125_S22_L001.sorted.bam
+[2019-04-30 14:13:58,903] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB150_S18_L001.sorted.bam
+[2019-04-30 14:13:58,903] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB122_S4_L001.sorted.bam
+[2019-04-30 14:13:58,989] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB194_S19_L001.sorted.bam
+[2019-04-30 14:13:58,989] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB10_S11_L001.sorted.bam
+[2019-04-30 14:13:59,205] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB160_S11_L001.sorted.bam
+[2019-04-30 14:13:59,205] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB83_S16_L001.sorted.bam
+[2019-04-30 14:13:59,274] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB148_S9_L001.sorted.bam
+[2019-04-30 14:13:59,343] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB185_S9_L001.sorted.bam
+[2019-04-30 14:13:59,344] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB5_S2_L001.sorted.bam
+[2019-04-30 14:13:59,416] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB241_S3_L001.sorted.bam
+[2019-04-30 14:13:59,554] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB42_S6_L001.sorted.bam
+[2019-04-30 14:13:59,555] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB170_S13_L001.sorted.bam
+[2019-04-30 14:13:59,626] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB271_S10_L001.sorted.bam
+[2019-04-30 14:13:59,626] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB143_S8_L001.sorted.bam
+[2019-04-30 14:13:59,627] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB189_S17_L001.sorted.bam
+[2019-04-30 14:13:59,699] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB53_S17_L001.sorted.bam
+[2019-04-30 14:13:59,867] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB146_S5_L001.sorted.bam
+[2019-04-30 14:13:59,867] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB284_S23_L001.sorted.bam
+[2019-04-30 14:13:59,939] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB270_S9_L001.sorted.bam
+[2019-04-30 14:14:00,011] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB161_S24_L001.sorted.bam
+[2019-04-30 14:14:00,101] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB233_S1_L001.sorted.bam
+[2019-04-30 14:14:00,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB152_S10_L001.sorted.bam
+[2019-04-30 14:14:00,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB98_S23_L001.sorted.bam
+[2019-04-30 14:14:00,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB226_S16_L001.sorted.bam
+[2019-04-30 14:14:00,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB74_S12_L001.sorted.bam
+[2019-04-30 14:14:00,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB111_S2_L001.sorted.bam
+[2019-04-30 14:14:00,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB20_S6_L001.sorted.bam
+[2019-04-30 14:14:00,401] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB265_S8_L001.sorted.bam
+[2019-04-30 14:14:00,402] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB246_S4_L001.sorted.bam
+[2019-04-30 14:14:00,402] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB200_S20_L001.sorted.bam
+[2019-04-30 14:14:00,402] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB240_S15_L001.sorted.bam
+[2019-04-30 14:14:00,549] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB255_S20_L001.sorted.bam
+[2019-04-30 14:14:00,637] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB172_S4_L001.sorted.bam
+[2019-04-30 14:14:00,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB153_S23_L001.sorted.bam
+[2019-04-30 14:14:00,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB279_S12_L001.sorted.bam
+[2019-04-30 14:14:01,048] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRC2101_S14_L001.sorted.bam
+[2019-04-30 14:14:01,049] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB252_S5_L001.sorted.bam
+[2019-04-30 14:14:01,049] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB167_S19_L001.sorted.bam
+[2019-04-30 14:14:01,699] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB237_S18_L001.sorted.bam
+[2019-04-30 14:14:01,778] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB84_S21_L001.sorted.bam
+[2019-04-30 14:14:01,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB8_S2_L001.sorted.bam
+[2019-04-30 14:14:01,864] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB118_S20_L001.sorted.bam
+[2019-04-30 14:14:02,084] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB123_S5_L001.sorted.bam
+[2019-04-30 14:14:02,218] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB120_S23_L001.sorted.bam
+[2019-04-30 14:14:02,218] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB290_S24_L001.sorted.bam
+[2019-04-30 14:14:02,285] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB156_S8_L001.sorted.bam
+[2019-04-30 14:14:02,499] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB236_S13_L001.sorted.bam
+[2019-04-30 14:14:02,566] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB275_S24_L001.sorted.bam
+[2019-04-30 14:14:02,566] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB11_S12_L001.sorted.bam
+[2019-04-30 14:14:02,798] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB124_S21_L001.sorted.bam
+[2019-04-30 14:14:02,799] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB132_S7_L001.sorted.bam
+[2019-04-30 14:14:02,799] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB238_S22_L001.sorted.bam
+[2019-04-30 14:14:02,799] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB177_S8_L001.sorted.bam
+[2019-04-30 14:14:02,800] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB48_S14_L001.sorted.bam
+[2019-04-30 14:14:03,347] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB73_S15_L001.sorted.bam
+[2019-04-30 14:14:03,347] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB281_S2_L001.sorted.bam
+[2019-04-30 14:14:03,483] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB72_S11_L001.sorted.bam
+[2019-04-30 14:14:03,551] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB57_S12_L001.sorted.bam
+[2019-04-30 14:14:03,807] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB199_S20_L001.sorted.bam
+[2019-04-30 14:14:03,985] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB239_S14_L001.sorted.bam
+[2019-04-30 14:14:03,985] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB14_S3_L001.sorted.bam
+[2019-04-30 14:14:03,986] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB224_S14_L001.sorted.bam
+[2019-04-30 14:14:03,986] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB287_S6_L001.sorted.bam
+[2019-04-30 14:14:03,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB108_S1_L001.sorted.bam
+[2019-04-30 14:14:04,056] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB77_S14_L001.sorted.bam
+[2019-04-30 14:14:04,057] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB258_S20_L001.sorted.bam
+[2019-04-30 14:14:04,057] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB190_S11_L001.sorted.bam
+[2019-04-30 14:14:04,058] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB203_S11_L001.sorted.bam
+[2019-04-30 14:14:04,288] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB254_S19_L001.sorted.bam
+[2019-04-30 14:14:04,288] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB175_S7_L001.sorted.bam
+[2019-04-30 14:14:04,384] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB249_S19_L001.sorted.bam
+[2019-04-30 14:14:04,546] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB142_S4_L001.sorted.bam
+[2019-04-30 14:14:04,547] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB158_S9_L001.sorted.bam
+[2019-04-30 14:14:04,616] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB247_S17_L001.sorted.bam
+[2019-04-30 14:14:04,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB273_S23_L001.sorted.bam
+[2019-04-30 14:14:04,925] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB154_S7_L001.sorted.bam
+[2019-04-30 14:14:04,926] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB17_S15_L001.sorted.bam
+[2019-04-30 14:14:04,926] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB46_S7_L001.sorted.bam
+[2019-04-30 14:14:04,926] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB19_S5_L001.sorted.bam
+[2019-04-30 14:14:04,998] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB131_S17_L001.sorted.bam
+[2019-04-30 14:14:05,065] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB121_S24_L001.sorted.bam
+[2019-04-30 14:14:05,066] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB3_S1_L001.sorted.bam
+[2019-04-30 14:14:05,066] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB96_S18_L001.sorted.bam
+[2019-04-30 14:14:05,207] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB171_S3_L001.sorted.bam
+[2019-04-30 14:14:05,485] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB188_S16_L001.sorted.bam
+[2019-04-30 14:14:05,551] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB147_S6_L001.sorted.bam
+[2019-04-30 14:14:05,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB169_S2_L001.sorted.bam
+[2019-04-30 14:14:05,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB138_S2_L001.sorted.bam
+[2019-04-30 14:14:05,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB207_S12_L001.sorted.bam
+[2019-04-30 14:14:05,922] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB75_S13_L001.sorted.bam
+[2019-04-30 14:14:06,012] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB197_S10_L001.sorted.bam
+[2019-04-30 14:14:06,294] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB162_S12_L001.sorted.bam
+[2019-04-30 14:14:06,365] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB101_S20_L001.sorted.bam
+[2019-04-30 14:14:06,365] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB44_S10_L001.sorted.bam
+[2019-04-30 14:14:06,435] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB34_S13_L001.sorted.bam
+[2019-04-30 14:14:06,436] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB253_S18_L001.sorted.bam
+[2019-04-30 14:14:06,519] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB91_S19_L001.sorted.bam
+[2019-04-30 14:14:06,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB182_S14_L001.sorted.bam
+[2019-04-30 14:14:06,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB260_S6_L001.sorted.bam
+[2019-04-30 14:14:06,777] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB81_S15_L001.sorted.bam
+[2019-04-30 14:14:06,777] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB38_S4_L001.sorted.bam
+[2019-04-30 14:14:06,778] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB229_S17_L001.sorted.bam
+[2019-04-30 14:14:06,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:08,746] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:10,618] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:12,437] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:14,256] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:16,047] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:17,954] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB166_S1_L001.sorted.bam.bai
+[2019-04-30 14:14:17,954] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB81_S15_L001.sorted.bam.bai
+[2019-04-30 14:14:17,955] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB247_S17_L001.sorted.bam.bai
+[2019-04-30 14:14:17,955] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB225_S15_L001.sorted.bam.bai
+[2019-04-30 14:14:17,956] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB281_S2_L001.sorted.bam.bai
+[2019-04-30 14:14:17,956] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB242_S16_L001.sorted.bam.bai
+[2019-04-30 14:14:17,956] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB44_S10_L001.sorted.bam.bai
+[2019-04-30 14:14:17,957] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB143_S8_L001.sorted.bam.bai
+[2019-04-30 14:14:17,957] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB185_S9_L001.sorted.bam.bai
+[2019-04-30 14:14:17,958] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB108_S1_L001.sorted.bam.bai
+[2019-04-30 14:14:17,958] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB220_S13_L001.sorted.bam.bai
+[2019-04-30 14:14:17,958] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB19_S5_L001.sorted.bam.bai
+[2019-04-30 14:14:17,959] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB255_S20_L001.sorted.bam.bai
+[2019-04-30 14:14:17,959] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB272_S11_L001.sorted.bam.bai
+[2019-04-30 14:14:17,959] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB28_S8_L001.sorted.bam.bai
+[2019-04-30 14:14:17,960] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB55_S11_L001.sorted.bam.bai
+[2019-04-30 14:14:17,960] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB102_S24_L001.sorted.bam.bai
+[2019-04-30 14:14:17,961] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB224_S14_L001.sorted.bam.bai
+[2019-04-30 14:14:17,961] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB122_S4_L001.sorted.bam.bai
+[2019-04-30 14:14:17,961] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB158_S9_L001.sorted.bam.bai
+[2019-04-30 14:14:17,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB279_S12_L001.sorted.bam.bai
+[2019-04-30 14:14:17,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB167_S19_L001.sorted.bam.bai
+[2019-04-30 14:14:17,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB208_S21_L001.sorted.bam.bai
+[2019-04-30 14:14:17,963] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB77_S14_L001.sorted.bam.bai
+[2019-04-30 14:14:17,963] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB47_S8_L001.sorted.bam.bai
+[2019-04-30 14:14:17,964] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB14_S3_L001.sorted.bam.bai
+[2019-04-30 14:14:17,964] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB170_S13_L001.sorted.bam.bai
+[2019-04-30 14:14:17,964] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB101_S20_L001.sorted.bam.bai
+[2019-04-30 14:14:17,965] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB104_S21_L001.sorted.bam.bai
+[2019-04-30 14:14:17,965] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB173_S5_L001.sorted.bam.bai
+[2019-04-30 14:14:17,966] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB68_S19_L001.sorted.bam.bai
+[2019-04-30 14:14:17,966] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB6_S10_L001.sorted.bam.bai
+[2019-04-30 14:14:17,966] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB124_S21_L001.sorted.bam.bai
+[2019-04-30 14:14:17,967] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB84_S21_L001.sorted.bam.bai
+[2019-04-30 14:14:17,967] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB194_S19_L001.sorted.bam.bai
+[2019-04-30 14:14:17,967] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB96_S18_L001.sorted.bam.bai
+[2019-04-30 14:14:17,968] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB138_S2_L001.sorted.bam.bai
+[2019-04-30 14:14:17,968] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB246_S4_L001.sorted.bam.bai
+[2019-04-30 14:14:17,969] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB226_S16_L001.sorted.bam.bai
+[2019-04-30 14:14:17,969] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB87_S17_L001.sorted.bam.bai
+[2019-04-30 14:14:17,969] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB197_S10_L001.sorted.bam.bai
+[2019-04-30 14:14:17,970] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB265_S8_L001.sorted.bam.bai
+[2019-04-30 14:14:17,970] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB113_S3_L001.sorted.bam.bai
+[2019-04-30 14:14:17,970] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB9_S3_L001.sorted.bam.bai
+[2019-04-30 14:14:17,971] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRC2101_S14_L001.sorted.bam.bai
+[2019-04-30 14:14:17,971] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB38_S4_L001.sorted.bam.bai
+[2019-04-30 14:14:17,972] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB1_S9_L001.sorted.bam.bai
+[2019-04-30 14:14:17,972] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB20_S6_L001.sorted.bam.bai
+[2019-04-30 14:14:17,972] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB88_S22_L001.sorted.bam.bai
+[2019-04-30 14:14:17,973] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: OVB1_S13_L001.sorted.bam.bai
+[2019-04-30 14:14:17,973] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB238_S22_L001.sorted.bam.bai
+[2019-04-30 14:14:17,974] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB175_S7_L001.sorted.bam.bai
+[2019-04-30 14:14:17,974] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB162_S12_L001.sorted.bam.bai
+[2019-04-30 14:14:17,974] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB275_S24_L001.sorted.bam.bai
+[2019-04-30 14:14:17,975] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB161_S24_L001.sorted.bam.bai
+[2019-04-30 14:14:17,975] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB5_S2_L001.sorted.bam.bai
+[2019-04-30 14:14:17,975] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB94_S17_L001.sorted.bam.bai
+[2019-04-30 14:14:17,976] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRC1341_S23_L001.sorted.bam.bai
+[2019-04-30 14:14:17,976] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB11_S12_L001.sorted.bam.bai
+[2019-04-30 14:14:17,977] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB49_S15_L001.sorted.bam.bai
+[2019-04-30 14:14:17,977] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB121_S24_L001.sorted.bam.bai
+[2019-04-30 14:14:17,977] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB62_S18_L001.sorted.bam.bai
+[2019-04-30 14:14:17,978] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB268_S22_L001.sorted.bam.bai
+[2019-04-30 14:14:17,978] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB257_S21_L001.sorted.bam.bai
+[2019-04-30 14:14:17,978] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB156_S8_L001.sorted.bam.bai
+[2019-04-30 14:14:17,979] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB254_S19_L001.sorted.bam.bai
+[2019-04-30 14:14:17,979] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB233_S1_L001.sorted.bam.bai
+[2019-04-30 14:14:17,980] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB199_S20_L001.sorted.bam.bai
+[2019-04-30 14:14:17,980] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB89_S18_L001.sorted.bam.bai
+[2019-04-30 14:14:17,980] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB34_S13_L001.sorted.bam.bai
+[2019-04-30 14:14:17,981] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB48_S14_L001.sorted.bam.bai
+[2019-04-30 14:14:17,981] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB215_S23_L001.sorted.bam.bai
+[2019-04-30 14:14:17,981] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB191_S12_L001.sorted.bam.bai
+[2019-04-30 14:14:17,982] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB99_S8_L001.sorted.bam.bai
+[2019-04-30 14:14:17,982] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB72_S11_L001.sorted.bam.bai
+[2019-04-30 14:14:17,983] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB114_S22_L001.sorted.bam.bai
+[2019-04-30 14:14:17,983] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB53_S17_L001.sorted.bam.bai
+[2019-04-30 14:14:17,983] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB58_S13_L001.sorted.bam.bai
+[2019-04-30 14:14:17,984] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB270_S9_L001.sorted.bam.bai
+[2019-04-30 14:14:17,984] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB153_S23_L001.sorted.bam.bai
+[2019-04-30 14:14:17,985] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB260_S6_L001.sorted.bam.bai
+[2019-04-30 14:14:17,985] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB73_S15_L001.sorted.bam.bai
+[2019-04-30 14:14:17,985] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB111_S2_L001.sorted.bam.bai
+[2019-04-30 14:14:17,986] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB273_S23_L001.sorted.bam.bai
+[2019-04-30 14:14:17,986] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB259_S21_L001.sorted.bam.bai
+[2019-04-30 14:14:17,986] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB57_S12_L001.sorted.bam.bai
+[2019-04-30 14:14:17,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB201_S21_L001.sorted.bam.bai
+[2019-04-30 14:14:17,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB18_S4_L001.sorted.bam.bai
+[2019-04-30 14:14:17,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB78_S16_L001.sorted.bam.bai
+[2019-04-30 14:14:17,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB237_S18_L001.sorted.bam.bai
+[2019-04-30 14:14:17,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB234_S2_L001.sorted.bam.bai
+[2019-04-30 14:14:17,989] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB137_S1_L001.sorted.bam.bai
+[2019-04-30 14:14:17,989] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB190_S11_L001.sorted.bam.bai
+[2019-04-30 14:14:17,989] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB177_S8_L001.sorted.bam.bai
+[2019-04-30 14:14:17,990] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB10_S11_L001.sorted.bam.bai
+[2019-04-30 14:14:17,990] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB241_S3_L001.sorted.bam.bai
+[2019-04-30 14:14:17,991] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB146_S5_L001.sorted.bam.bai
+[2019-04-30 14:14:17,991] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB240_S15_L001.sorted.bam.bai
+[2019-04-30 14:14:17,991] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB288_S7_L001.sorted.bam.bai
+[2019-04-30 14:14:17,992] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB123_S5_L001.sorted.bam.bai
+[2019-04-30 14:14:17,992] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB200_S20_L001.sorted.bam.bai
+[2019-04-30 14:14:17,992] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB258_S20_L001.sorted.bam.bai
+[2019-04-30 14:14:17,993] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB203_S11_L001.sorted.bam.bai
+[2019-04-30 14:14:17,993] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB83_S16_L001.sorted.bam.bai
+[2019-04-30 14:14:17,994] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB3_S1_L001.sorted.bam.bai
+[2019-04-30 14:14:17,994] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB239_S14_L001.sorted.bam.bai
+[2019-04-30 14:14:17,994] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB106_S19_L001.sorted.bam.bai
+[2019-04-30 14:14:17,995] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB286_S5_L001.sorted.bam.bai
+[2019-04-30 14:14:17,995] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB152_S10_L001.sorted.bam.bai
+[2019-04-30 14:14:17,996] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB187_S15_L001.sorted.bam.bai
+[2019-04-30 14:14:17,996] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB189_S17_L001.sorted.bam.bai
+[2019-04-30 14:14:17,996] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB2_S1_L001.sorted.bam.bai
+[2019-04-30 14:14:17,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB290_S24_L001.sorted.bam.bai
+[2019-04-30 14:14:17,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB51_S9_L001.sorted.bam.bai
+[2019-04-30 14:14:17,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB154_S7_L001.sorted.bam.bai
+[2019-04-30 14:14:17,998] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB50_S16_L001.sorted.bam.bai
+[2019-04-30 14:14:17,998] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB172_S4_L001.sorted.bam.bai
+[2019-04-30 14:14:17,998] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB182_S14_L001.sorted.bam.bai
+[2019-04-30 14:14:17,999] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB17_S15_L001.sorted.bam.bai
+[2019-04-30 14:14:17,999] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB148_S9_L001.sorted.bam.bai
+[2019-04-30 14:14:18,000] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB46_S7_L001.sorted.bam.bai
+[2019-04-30 14:14:18,000] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB169_S2_L001.sorted.bam.bai
+[2019-04-30 14:14:18,000] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB188_S16_L001.sorted.bam.bai
+[2019-04-30 14:14:18,001] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB253_S18_L001.sorted.bam.bai
+[2019-04-30 14:14:18,001] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB139_S3_L001.sorted.bam.bai
+[2019-04-30 14:14:18,001] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB284_S23_L001.sorted.bam.bai
+[2019-04-30 14:14:18,002] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB118_S20_L001.sorted.bam.bai
+[2019-04-30 14:14:18,002] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB276_S1_L001.sorted.bam.bai
+[2019-04-30 14:14:18,003] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB125_S22_L001.sorted.bam.bai
+[2019-04-30 14:14:18,003] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB150_S18_L001.sorted.bam.bai
+[2019-04-30 14:14:18,003] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB271_S10_L001.sorted.bam.bai
+[2019-04-30 14:14:18,004] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB287_S6_L001.sorted.bam.bai
+[2019-04-30 14:14:18,004] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB142_S4_L001.sorted.bam.bai
+[2019-04-30 14:14:18,005] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB252_S5_L001.sorted.bam.bai
+[2019-04-30 14:14:18,005] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB8_S2_L001.sorted.bam.bai
+[2019-04-30 14:14:18,005] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB39_S5_L001.sorted.bam.bai
+[2019-04-30 14:14:18,006] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB229_S17_L001.sorted.bam.bai
+[2019-04-30 14:14:18,006] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB160_S11_L001.sorted.bam.bai
+[2019-04-30 14:14:18,006] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB120_S23_L001.sorted.bam.bai
+[2019-04-30 14:14:18,007] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB205_S22_L001.sorted.bam.bai
+[2019-04-30 14:14:18,007] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB283_S4_L001.sorted.bam.bai
+[2019-04-30 14:14:18,008] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB21_S7_L001.sorted.bam.bai
+[2019-04-30 14:14:18,008] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB264_S7_L001.sorted.bam.bai
+[2019-04-30 14:14:18,008] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB174_S6_L001.sorted.bam.bai
+[2019-04-30 14:14:18,009] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB70_S20_L001.sorted.bam.bai
+[2019-04-30 14:14:18,009] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB236_S13_L001.sorted.bam.bai
+[2019-04-30 14:14:18,009] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB207_S12_L001.sorted.bam.bai
+[2019-04-30 14:14:18,010] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB59_S14_L001.sorted.bam.bai
+[2019-04-30 14:14:18,010] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB52_S10_L001.sorted.bam.bai
+[2019-04-30 14:14:18,010] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB186_S10_L001.sorted.bam.bai
+[2019-04-30 14:14:18,011] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB42_S6_L001.sorted.bam.bai
+[2019-04-30 14:14:18,011] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB171_S3_L001.sorted.bam.bai
+[2019-04-30 14:14:18,012] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB132_S7_L001.sorted.bam.bai
+[2019-04-30 14:14:18,012] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB37_S9_L001.sorted.bam.bai
+[2019-04-30 14:14:18,012] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB75_S13_L001.sorted.bam.bai
+[2019-04-30 14:14:18,013] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB131_S17_L001.sorted.bam.bai
+[2019-04-30 14:14:18,013] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB249_S19_L001.sorted.bam.bai
+[2019-04-30 14:14:18,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB147_S6_L001.sorted.bam.bai
+[2019-04-30 14:14:18,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB98_S23_L001.sorted.bam.bai
+[2019-04-30 14:14:18,014] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB129_S6_L001.sorted.bam.bai
+[2019-04-30 14:14:18,015] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB261_S22_L001.sorted.bam.bai
+[2019-04-30 14:14:18,015] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB130_S16_L001.sorted.bam.bai
+[2019-04-30 14:14:18,015] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB282_S3_L001.sorted.bam.bai
+[2019-04-30 14:14:18,016] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB193_S18_L001.sorted.bam.bai
+[2019-04-30 14:14:18,016] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB91_S19_L001.sorted.bam.bai
+[2019-04-30 14:14:18,017] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BRB74_S12_L001.sorted.bam.bai
+[2019-04-30 14:14:18,018] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:19,884] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:21,716] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:23,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:25,410] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:27,186] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:28,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:30,911] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:32,796] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:34,662] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:36,501] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:38,305] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:40,068] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:41,913] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:43,662] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:45,498] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:47,314] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:49,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:50,986] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:52,820] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:54,649] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:56,449] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:14:58,274] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:00,096] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:01,882] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:03,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:05,603] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:07,455] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:09,306] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:11,132] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:12,934] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:14,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:16,605] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:18,353] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:20,120] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:21,974] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:23,787] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:25,534] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:27,190] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:28,881] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:30,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:32,450] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:34,234] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:35,974] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:37,734] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:39,480] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:41,277] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:43,031] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:44,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:46,596] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:48,417] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:50,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:51,995] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:53,823] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:55,631] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:57,394] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:15:59,188] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:00,970] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:02,764] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:04,604] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:06,456] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:08,252] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:10,035] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:11,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:13,543] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:15,404] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:17,192] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:19,043] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:21,004] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:22,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:24,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:26,389] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:28,142] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:29,928] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:31,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:33,551] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:35,359] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:37,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:38,960] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:40,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:42,428] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:44,231] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:46,084] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:47,884] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:49,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:51,507] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:53,349] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:55,189] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:56,918] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:16:58,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:00,464] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:02,221] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:04,095] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:05,905] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:07,700] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:09,476] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:11,251] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:13,007] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:14,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:16,594] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:18,351] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:20,123] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:21,887] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:23,614] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:25,382] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:27,179] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:28,981] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:30,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:32,585] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:34,386] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:36,190] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:37,969] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:39,761] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:41,504] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:43,322] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:45,062] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:46,816] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:48,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:50,430] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:52,237] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:54,022] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:55,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:57,639] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:17:59,389] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:01,093] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:02,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:04,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:06,465] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:08,251] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:09,996] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:11,776] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:13,554] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:15,359] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:17,107] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:18,852] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:20,619] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:22,381] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:24,189] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:25,973] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:27,739] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:29,514] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:31,254] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:32,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:34,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:36,548] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:38,330] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:40,116] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:41,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:43,628] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:45,418] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:47,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:48,992] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:50,769] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:52,480] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:54,266] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:56,039] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:57,766] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:18:59,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:19:01,291] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:19:03,066] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2019-04-30 14:19:05,718] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2019-04-30 14:19:05,726] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2019-04-30 14:19:05,736] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2019-04-30 14:19:05,744] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2019-04-30 14:19:10,958] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2019-04-30 14:19:19,841] multiqc.modules.qualimap.qualimap                  [INFO   ]  Found 166 BamQC reports
+[2019-04-30 14:19:19,849] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2019-04-30 14:19:19,856] multiqc                                            [DEBUG  ]  No samples found: quast
+[2019-04-30 14:19:19,864] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2019-04-30 14:19:19,878] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2019-04-30 14:19:19,884] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2019-04-30 14:19:19,893] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2019-04-30 14:19:19,900] multiqc                                            [DEBUG  ]  No samples found: busco
+[2019-04-30 14:19:19,909] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2019-04-30 14:19:19,916] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2019-04-30 14:19:19,923] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2019-04-30 14:19:19,936] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2019-04-30 14:19:19,943] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2019-04-30 14:19:19,950] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2019-04-30 14:19:19,957] multiqc                                            [DEBUG  ]  No samples found: homer
+[2019-04-30 14:19:19,964] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2019-04-30 14:19:19,971] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2019-04-30 14:19:19,978] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2019-04-30 14:19:19,985] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2019-04-30 14:19:19,992] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2019-04-30 14:19:20,000] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2019-04-30 14:19:20,006] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2019-04-30 14:19:20,013] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2019-04-30 14:19:20,023] multiqc                                            [DEBUG  ]  No samples found: picard
+[2019-04-30 14:19:20,029] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2019-04-30 14:19:20,036] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2019-04-30 14:19:20,044] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2019-04-30 14:19:20,051] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2019-04-30 14:19:20,058] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2019-04-30 14:19:20,065] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2019-04-30 14:19:20,075] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2019-04-30 14:19:20,081] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2019-04-30 14:19:20,088] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2019-04-30 14:19:20,095] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2019-04-30 14:19:20,102] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2019-04-30 14:19:20,109] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2019-04-30 14:19:20,115] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2019-04-30 14:19:20,122] multiqc                                            [DEBUG  ]  No samples found: star
+[2019-04-30 14:19:20,129] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2019-04-30 14:19:20,136] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2019-04-30 14:19:20,142] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2019-04-30 14:19:20,149] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2019-04-30 14:19:20,156] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2019-04-30 14:19:20,162] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2019-04-30 14:19:20,169] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2019-04-30 14:19:20,176] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2019-04-30 14:19:20,183] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2019-04-30 14:19:20,189] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2019-04-30 14:19:20,196] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2019-04-30 14:19:20,203] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2019-04-30 14:19:20,210] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2019-04-30 14:19:20,216] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2019-04-30 14:19:20,223] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2019-04-30 14:19:20,230] multiqc                                            [DEBUG  ]  No samples found: fastqc
+[2019-04-30 14:19:20,237] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2019-04-30 14:19:20,244] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2019-04-30 14:19:20,250] multiqc                                            [DEBUG  ]  No samples found: interop
+[2019-04-30 14:19:21,187] multiqc                                            [INFO   ]  Compressing plot data
+[2019-04-30 14:19:21,290] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2019-04-30 14:19:21,290] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2019-04-30 14:19:21,291] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyStXcU/multiqc_data/mqc_qualimap_genome_fraction_1.txt' to '/nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted/multiqc_data'
+[2019-04-30 14:19:21,317] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyStXcU/multiqc_data/multiqc_data.json' to '/nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted/multiqc_data'
+[2019-04-30 14:19:21,322] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyStXcU/multiqc_data/multiqc_general_stats.txt' to '/nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted/multiqc_data'
+[2019-04-30 14:19:21,333] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyStXcU/multiqc_data/mqc_qualimap_coverage_histogram_1.txt' to '/nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted/multiqc_data'
+[2019-04-30 14:19:21,344] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyStXcU/multiqc_data/mqc_qualimap_gc_content_1.txt' to '/nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted/multiqc_data'
+[2019-04-30 14:19:21,357] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyStXcU/multiqc_data/multiqc_sources.txt' to '/nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted/multiqc_data'
+[2019-04-30 14:19:21,361] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyStXcU/multiqc_data/mqc_qualimap_insert_size_1.txt' to '/nlustre/users/junior/OmegaFastq/fastq/SAM/BAM/Sorted/multiqc_data'
+[2019-04-30 14:19:21,648] multiqc                                            [INFO   ]  MultiQC complete

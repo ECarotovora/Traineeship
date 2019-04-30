@@ -1,0 +1,6 @@
+for sample in `ls /nlustre/users/junior/OmegaFastq/fastq/*R1.fastq`
+do
+dir="/nlustre/users/junior/OmegaFastq/fastq"
+base=$(basename $sample "_R1.fastq")
+bowtie2 -x path_to_my_index -1 ${dir}/${base}_R1.fastq -2 ${dir}/${base}_R2.fastq -S ${dir}/${base}.sam
+done
