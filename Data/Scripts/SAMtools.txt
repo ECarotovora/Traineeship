@@ -49,7 +49,9 @@ for file in `ls |grep sh`; do qsub $file; done
 
 Next step qualimap bamqc ==> to use this feature files have to be sorted
 next step I replaced the .sh files to the scripts directory to have space
-The python script is configured now
+The python script is configured now.
+I need to keep in mind that qualimap needs a different output directory
+so in order to do that I had to create a new script.
 
 I used for file in `ls|grep sorted`; do ./BAMQC.py $file;done to make 166 python scripts
 next I use 
