@@ -1,0 +1,30 @@
+BQSR - first pass
+gatk BaseRecalibrator \
+-I=sample_dedup.bam \
+-R=/Reference/genome_ref.fasta \
+--known-sites mysnp.vcf \
+-O=sample_recal_pass1.tabl
+
+gatk ApplyBQSR \
+-I=sample_dedup.bam \
+-R=/Reference/genome_ref.fasta \
+--bqsr-recal-file sample_recal_pass1.tabl \
+-O sample_dedup.recal.pass1.bam
+
+BQSR - second pass
+gatk BaseRecalibrator \
+-I=sample_dedup.recal.pass1.bam \
+-R=/Reference/genome_ref.fasta \
+--known-sites mysnp.vcf \
+-O=sample_recal_pass2.tabl
+
+gatk ApplyBQSR \
+-I=sample_dedup.recal.pass1.bam \
+-R=/Reference/genome_ref.fasta \
+--bqsr-recal-file sample_recal_pass2.tabl \
+-O sample_dedup.recal.pass2.bam
+
+
+Alleen maar doen als ik non model genomes heb... Dit zorgt ervoor dat 
+mijn specificiteit verhoogt. Maar met model genomen(mens) kan ik ervan uitgaan 
+dat de known sites goed genoeg te vertrouwen zijn.
