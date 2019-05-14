@@ -1,0 +1,32 @@
+
+mv BRB101_S20_L001_GenotypeGVCFs.sh GenotypeVCFs.py HaplotypCall.py ./Scripts/
+
+
+
+
+
+
+
+
+
+VEP
+Doesnt like vcf format because of the columns
+
+zcat Varia | grep -v "#"| | grep PASS| cut 1,2,4,5| less
+
+identifiers = All
+Variants and frequency data
+gnomeAD= exon dsata as well wich helps with the african variants
+include flagged variants => only when using ESEMNle
+Aditionaal annations : Exon/Intro / Fenotype
+Predictioon
+dbNSFP : alles aanduiden
+Filter options : we do our own filtering ==>
+
+
+cat test | vcf-SUBSET -c BR -r | grep -v '#' | less
+
+ik kan zcat gebruiken om mijn lijnen uit mijn bestand te halen
+
+
+only continue with the main transcripts
