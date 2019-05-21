@@ -1,18 +1,6 @@
-
-mv BRB101_S20_L001_GenotypeGVCFs.sh GenotypeVCFs.py HaplotypCall.py ./Scripts/
-
-
-
-
-
-
-
-
-
 VEP
 Doesnt like vcf format because of the columns
 
-zcat Varia | grep -v "#"| | grep PASS| cut 1,2,4,5| less
 
 identifiers = All
 Variants and frequency data
@@ -24,9 +12,43 @@ dbNSFP : alles aanduiden
 Filter options : we do our own filtering ==>
 
 
-cat test | vcf-SUBSET -c BR -r | grep -v '#' | less
+
 
 ik kan zcat gebruiken om mijn lijnen uit mijn bestand te halen
 
 
 only continue with the main transcripts
+
+
+vcftools [ --vcf FILE | --gzvcf FILE | --bcf FILE] [ --out OUTPUT PREFIX ] [ FILTERING OPTIONS ] [ OUTPUT OPTIONS ]
+--diff-site
+
+
+
+gunzip -c VariantINDELHF.vcf.gz > VariantIndelHF
+
+
+ 1462  vcf-subset -h
+ 1463  vcf-subset -c BRB101_S20_L001 -r BRB101_S20_L001
+ 1464  vcf-subset -c BRB101_S20_L001  BRB101_S20_L001
+ 1465  cat test | vcf-subset -c BRB101_S20_L001 -r
+ 1466  ls
+ 1467  zcat VariantSNPSHF.vcf.gz |grep -v '#' |wc -l  ==> aantal te zien
+ 1468  cat test | vcf-subset -c BRB101_S20_L001 -r |grep -v '#' |wc -l ==> om aantal te zien
+ 1469  less -S VariantSNPSHF.vcf.gz
+ 1470  cat test | vcf-subset -c BRB101_S20_L001 -r |grep -v '#' |wc -l
+ 1471  cat test | vcf-subset -c BRB101_S20_L001 -r |grep -v '#' |less
+ 1472  less -S test
+
+
+http://vcftools.sourceforge.net/perl_module.html#vcf-subset
+
+
+ 1476  cat test | vcf-subset -c BRB101_S20_L001 -r |grep -v '#' |less -S
+ 1477  vcf-subset -h
+ 1478  zcat VariantSNPSHF.vcf.gz |grep -v '#' |less
+ 1479  zcat VariantSNPSHF.vcf.gz |grep -v '#' |less -S
+ 1480  zcat VariantSNPSHF.vcf.gz |grep -v '#' |cut -f 7 |sort|uniq
+ 1481  zcat VariantSNPSHF.vcf.gz |grep -v '#' |grep HF_SNPs
+ 1482  zcat VariantSNPSHF.vcf.gz |grep -v '#' |grep HF_SNPs |wc
+
